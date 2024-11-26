@@ -1,0 +1,31 @@
+.booking-calendar {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .booking-calendar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .booking-calendar .react-calendar {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  
+  .booking-calendar .btn-proceed {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #282c34;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s;
+  }
+  
+  .booking-calendar .btn-proceed:hover {
+    background-color: #6c778b;
+  }
+  

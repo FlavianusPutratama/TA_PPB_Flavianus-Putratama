@@ -1,0 +1,139 @@
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  gap: 20px;
+}
+
+/* Bagian kiri */
+.details-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 600px; /* Diperbesar dari 400px menjadi 600px */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Bagian kanan */
+.details-right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.description h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.description p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Bagian "Why Choose This Treatment?" */
+.why-choose {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f7fcff;
+  border: 1px solid #d0e9ff;
+  border-radius: 8px;
+}
+
+.why-choose h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #0077cc;
+}
+
+.why-choose ul {
+  list-style-type: disc;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.why-choose li {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Tombol Add to Cart */
+.add-to-cart-btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #282c34;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #6c778b;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .details {
+    flex-direction: column;
+  }
+
+  .details-left,
+  .details-right {
+    width: 100%;
+  }
+
+  .product-image {
+    max-width: 100%; /* Gambar memenuhi lebar layar pada perangkat kecil */
+  }
+
+  .product-title {
+    font-size: 1.8rem;
+  }
+
+  .product-price {
+    font-size: 1.3rem;
+  }
+
+  .description h3,
+  .why-choose h3 {
+    font-size: 1.1rem;
+  }
+
+  .add-to-cart-btn {
+    width: 100%;
+    padding: 14px 0;
+    font-size: 1.1rem;
+  }
+}

@@ -1,0 +1,15 @@
+/* Footer.css */
+.footer {
+  background-color: #ffffff; /* Ubah latar belakang menjadi warna gelap */
+  color: white; /* Teks berwarna putih */
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  margin-top: auto; /* Pastikan footer berada di bawah */
+}
+
+.footer p {
+  color: white; 
+  margin: 0;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,38 @@
+.booking-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center; /* Memusatkan konten */
+}
+
+h3 {
+  font-size: 1.5rem; /* Sesuaikan ukuran font seperti pada produk */
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.booking-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Memusatkan daftar */
+  gap: 10px; /* Menambah jarak antar item */
+}
+
+.booking-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 15px;
+  width: 100%; /* Sesuaikan dengan container */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 1rem; /* Ukuran font seragam dengan produk */
+  color: #555;
+}
+
+.no-bookings {
+  font-size: 1.2rem; /* Ukuran font konsisten */
+  color: #888;
+  margin-top: 20px;
+}

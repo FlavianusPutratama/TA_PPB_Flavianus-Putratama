@@ -1,0 +1,97 @@
+.cart {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center; /* Memusatkan konten */
+}
+
+h3 {
+  font-size: 1.5rem; /* Ukuran font yang konsisten dengan Products */
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.cart-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Memusatkan daftar cart */
+  gap: 10px; /* Menambah jarak antar item */
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Menjaga posisi item tetap rata tengah */
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 15px;
+  width: 100%; /* Sesuaikan dengan container */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 1rem; /* Ukuran font seragam dengan produk */
+  color: #555;
+}
+
+.cart-image {
+  width: 80px;
+  height: auto;
+  margin-right: 16px;
+  border-radius: 8px;
+}
+
+.cart-details h4 {
+  margin: 0;
+}
+
+.cart-details p {
+  margin: 4px 0 0;
+  color: #555;
+}
+
+.remove-btn {
+  margin-left: auto;
+  padding: 6px 12px;
+  background-color: #ff5c5c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.remove-btn:hover {
+  background-color: #ff4a4a;
+}
+
+.cart-summary {
+  margin-top: 20px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: right;
+}
+
+.book-now-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.book-now-btn:hover {
+  background-color: #6c778b;
+}
+
+.no-cart-items {
+  font-size: 1.2rem; /* Ukuran font konsisten */
+  color: #888;
+  margin-top: 20px;
+}

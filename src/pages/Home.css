@@ -1,0 +1,94 @@
+.slider {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  background-color: #000; /* Warna latar belakang slider */
+}
+
+.slide-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out; /* Transisi fading */
+}
+
+.slide-image.active {
+  opacity: 1;
+}
+/* Best Seller Section */
+.best-seller {
+  padding: 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.best-seller h3 {
+  font-size: 3rem; /* Ukuran font diperbesar */
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.service-item {
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+  transform: translateY(-5px);
+}
+
+.service-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.add-to-cart-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+.add-to-cart-btn:hover {
+  background-color: #6c778b;
+}
+.explore-btn {
+  position: absolute;
+  bottom: 150px; /* Kembali ke posisi awal */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 40px; /* Ukuran tombol lebih proporsional */
+  background-color: #20c8f7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s ease; /* Hanya transisi warna */
+}
+.explore-btn:hover {
+  background-color: #3d869b;
+}

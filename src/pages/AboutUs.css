@@ -1,0 +1,47 @@
+/* AboutUs.css */
+
+.about-us-container {
+    margin-top: 80px; /* Menambahkan margin top agar konten berada sedikit di bawah navbar */
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .about-us-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+  }
+  
+  .about-us-description {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .about-us-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  .about-us-subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .about-us-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .about-us-content li {
+    font-size: 1rem;
+    color: #555;
+  }
+  
